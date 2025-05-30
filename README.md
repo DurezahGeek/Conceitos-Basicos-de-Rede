@@ -373,7 +373,7 @@ Exemplo: Quando você digita "www.google.com", a solicitação sai do seu comput
 
 ---
 
-## FTP (File Transfer Protocol)
+## FTP (Protocolo de Transferência de Arquivos)
 
 | Função        | Descrição                                              | Porta |
 |---------------|--------------------------------------------------------|-------|
@@ -412,16 +412,17 @@ Exemplo: Quando você digita "www.google.com", a solicitação sai do seu comput
 
 ## Comandos Úteis
 
-| Comando              | Descrição                                           |
-|----------------------|-----------------------------------------------------|
-| **ipconfig**         | Exibe informações básicas da rede (IP, gateway).   |
-| **ipconfig /all**    | Exibe informações detalhadas, incluindo DNS e MAC. |
-| **ipconfig /release**| Libera o endereço IP atual (caso use DHCP).        |
-| **ipconfig /renew**  | Solicita um novo endereço IP ao servidor.          |
-| **ping**             | Testa a conectividade com outro computador/site.   |
-| **netstat**          | Mostra quais portas estão em uso, e com quais endereços IP o computador está se comunicando..                  |
-| **tracert**          | Mostra o caminho entre seu computador e o destino, passando por todos os roteadores no meio do caminho.. |
-| **nslookup**         | Descobre o IP de um site ou verifica DNS está funcionando.          |
+| Comando (Windows)       | Comando (Linux)         | Descrição                                           |
+|-------------------------|-------------------------|-----------------------------------------------------|
+| **ipconfig**            | **ifconfig** / **ip a** | Exibe informações básicas da rede (IP, gateway).   |
+| **ipconfig /all**       | **ifconfig -a** / **ip a** | Exibe informações detalhadas, incluindo DNS e MAC. |
+| **ipconfig /release**   | **dhclient -r**         | Libera o endereço IP atual (caso use DHCP).        |
+| **ipconfig /renew**     | **dhclient**            | Solicita um novo endereço IP ao servidor.          |
+| **ping**                | **ping**                | Testa a conectividade com outro computador/site.   |
+| **netstat**             | **netstat** / **ss**    | Mostra quais portas estão em uso, e com quais endereços IP o computador está se comunicando. |
+| **tracert**             | **traceroute**          | Mostra o caminho entre seu computador e o destino, passando por todos os roteadores no meio do caminho. |
+| **nslookup**            | **nslookup** / **dig**  | Descobre o IP de um site ou verifica se o DNS está funcionando. |
+
 
 ---
 
