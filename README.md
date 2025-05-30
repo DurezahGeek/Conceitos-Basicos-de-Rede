@@ -140,7 +140,7 @@ Os **protocolos de rede** são regras que definem como os dispositivos se comuni
 
 ## O que é um Quadro Ethernet?
 
-Um **quadro Ethernet** O quadro Ethernet é o envelope padrão usado dentro das redes locais (como em casa ou na empresa). Ele contém:
+Um **quadro Ethernet** é o envelope padrão usado dentro das redes locais (como em casa ou na empresa). Ele contém:
 
 - **Endereço MAC de Destino**: Quem recebe os dados.
 - **Endereço MAC de Origem**: Quem enviou os dados.
